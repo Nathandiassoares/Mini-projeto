@@ -11,37 +11,64 @@
             padding-right: 0px;
         }
         body {
+            height: 90vh;
             font-family: Arial, Helvetica, sans-serif;
+            background-image: url(relogio03.png);
+            background-repeat: no-repeat;
+            background-position:;
+            background-size: cover;
         }
-        a {
-            flex-direction: column;
-            margin-left: 1200px;
-            padding-top: 10px;
+        nav {
+            
         }
-    
-        .titulo {
-            margin-top: 200px;
-            margin-left: 20px;
+        a,li {
+            margin-left:560px;
+            list-style: none;
+            text-decoration: none;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 5px;
+            color: white;
+            letter-spacing: 5px;
+            
         }
 
+        a:hover {
+            color: black;
+            background-color: rgb(255, 255, 255);
+            transition: 0.9s;
+            letter-spacing: 0.5em;
+            font-size: 1.1em;
+            
+        }
+        .menu {
+            
+        }
         p {
-            margin-top: -100px;
-            margin-left: 90px;
+            margin-top: -150px;
+            margin-left: 140px;
+            
+        }
+        main {
+            margin-left: 30px;
+            color: white;
+            letter-spacing: 10px;
+            font-size: 1.5em;
         }
     </style>
 </head>
 <body>
     <header>
-        <div>
-            <nav>
-                <a class="n" href="#">Menu</a>
-                <a class="n" href="#">HOME</a>
-                <a class="n" href="#">COLLECTION</a>
-                <a class="n" href="#">PHILOSOPHY</a>
-                <a class="n" href="#">CONTACT</a>
-            </nav>
-            
-        </div>
+        <nav>
+            <ul>
+                <li class="menu"><a href="#">Menu</a></li>
+                <li class="nav"><a href="#">Home</a></li>
+                <li class="nav"><a href="#">Collection</a></li>
+                <li class="nav"><a href="#">philosophy</a></li>
+                <li class="nav"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
     </header>
     <main>
         <h1 class="titulo">THE <br>MASTER-</br> -PIECES</h1>
