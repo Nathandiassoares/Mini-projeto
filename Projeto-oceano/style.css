@@ -3,19 +3,4 @@
     padding: 0px;
     font-family: arial, helvetica, sans-serif;
     }
-    body {
-        background:black url(ninho.png) center center no-repeat fixed;
-        background-size: cover;
-        height: 96vh;
-    }
-    main {
-        background-color:white;
-            width:700px;
-            padding:15px;
-            border: 2px solid rgb(11, 11, 77);
-            border-radius: 15px;
-            margin: auto;
-    }
-    
-    
-
+   
