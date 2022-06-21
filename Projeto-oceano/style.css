@@ -3,24 +3,11 @@
     padding: 0px;
     font-family: arial, helvetica, sans-serif;
     }
-   header {
-    background-color: #004B71;
-   }
-   .titulo{
-    font-size:2em;
-    font-weight:bolder;
-    padding: 10px;
+   .menu {
+    display: flex;
     text-align: center;
-    color: white;
-   }
-   nav{
-    text-align: center;
-    padding: 10px;
-   }
-
-   a {
-    letter-spacing: 1px;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
-    color: white;
-    text-decoration: none;
-  }
+    gap: 30%;
+   }
