@@ -10,7 +10,7 @@
         --cor04:#2A5F6D;
     }
     body {
-        background-image: linear-gradient(to left, var(--cor01), var(--cor02));
+        background-color:#2A5F6D ;
         height: 96vh;
     }
     .titulo {
@@ -19,13 +19,12 @@
         padding: 20px;
         text-shadow: 2px 2px 2px var(--cor03);
         letter-spacing: 0.1em;
-        background-image:linear-gradient(to bottom, var(--cor03),transparent) ;
+        background-color:#2A5F6D ;
         font-weight: bolder;
-
     }
     .subtitulo {
         text-align: center;
-        color: var(--cor03);
+        color: var(--cor02);
         padding: 20px;
         letter-spacing: 0.1em;
         font-weight: bolder;
@@ -58,12 +57,13 @@
    }
    .rodape,.paragrafo {
     text-decoration: none;
-    color: var(--cor03);
+    color: var(--cor02);
     text-align: center;
     padding: 5px;
    }
 
    .rodape:hover {
+    color: var(--cor03);
     background-color: white;
     letter-spacing: 0.2em;
     transition: 1s;

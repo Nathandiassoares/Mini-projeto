@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.buttonoce, :root {
+    --cor:#2A5F6D;
+}
+.imagen2,.buttonflo, :root {
+    --cor:#2D591C;
+}
+.buttonoce, :root {
+    --cor:#2A5F6D;
+}
+.buttonoce, :root {
+    --cor:#2A5F6D;
+}
+body {
+    display:flex;
+    justify-content: center;align-items: center;
+    background-color:#27282c;flex-direction: column;
+    min-height: 100vh;
+    gap:60px;
+}
+header {
+    display: flex;
+    color: white;
+}
+main {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+   
+
+}
+.oceanod {
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    background-color: #2e2e2e;
+}
+
+.imagen1,.imagen2,.imagen3,.imagen4 {
+    height: 150px;
+    width: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 20px var(--cor);
+}
+a {
+    position: relative;
+    background-color:#444;
+    color:white;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+a:hover {
+    letter-spacing: 0.25em;
+    background-color: var(--cor);
+    color: var(--cor);
+    box-shadow: 0px 0px 35px var(--cor);
+}
+a::before {
+    content: '';
+    position: absolute;
+    inset:1px;
+    background-color: #27282c;
+}
+a span {
+    position: relative;
+    z-index: 1;
+}
+
+a i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+a i::before {
+    content: '';
+    position: absolute;
+    top:-3.5px;
+    left: 80%;
+    width: 10px;
+    height: 5px;
+    border: 2px solid var(--cor);
+    background-color:#27282c;
+    transform: translate(-50%);
+    transition: 0.5s;
+}
+
+a:hover i::before {
+    width: 20px;
+    left: 20%;
+}
+
+a i::after {
+    content: '';
+    position: absolute;
+    bottom: -3.5px;
+    left: 20%;
+    width: 10px;
+    height: 5px;
+    border: 2px solid var(--cor);
+    background-color: #27282c;
+    transition: 0.5s;
+}
+
+a:hover i::after {
+    width:20px;
+    left: 80%;
+}
