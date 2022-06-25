@@ -5,29 +5,49 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-.buttonoce, :root {
-    --cor:#2A5F6D;
+.imagen1,.cor1, :root {
+    --cor:#218B97;
 }
-.imagen2,.buttonflo, :root {
-    --cor:#2D591C;
+.imagen2,.cor2, :root {
+    --cor:#5B803B;
 }
-.buttonoce, :root {
-    --cor:#2A5F6D;
+.imagen3,.cor3, :root {
+    --cor:#FEDDA8;
 }
-.buttonoce, :root {
-    --cor:#2A5F6D;
+.imagen4,.cor4, :root {
+    --cor:#A55234;
 }
+
 body {
     display:flex;
     justify-content: center;align-items: center;
     background-color:#27282c;flex-direction: column;
-    min-height: 100vh;
+    
     gap:60px;
 }
 header {
+    height: 200px;
+    width: 100%;
+    background-image:linear-gradient( to bottom,#2e2e2e,#27282c);
     display: flex;
     color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 2px white;
 }
+h1 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    padding: 10px;
+    transition: 2s;
+}
+h1:hover {
+    background-color: white;
+    color: #27282c;
+    letter-spacing: 0.4em;
+}
+
 main {
     display:flex;
     flex-direction:row;
@@ -47,6 +67,7 @@ main {
     width: 300px;
     height: 250px;
     background-color: #2e2e2e;
+    box-shadow: 1px 1px 2px white;
 }
 
 .imagen1,.imagen2,.imagen3,.imagen4 {
