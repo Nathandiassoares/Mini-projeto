@@ -28,7 +28,6 @@ body {
 header {
     height: 200px;
     width: 100%;
-    background-image:linear-gradient( to bottom,#2e2e2e,#27282c);
     display: flex;
     color: white;
     align-items: center;
