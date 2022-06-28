@@ -56,20 +56,20 @@
     background-color: var(--cor02);
     box-shadow: 0px 0px 35px var(--cor02);
    }
-   a::before {
-    content: '';
-    position: absolute;
+   .ancora::before {
+    content:'';
+    position:absolute;
     inset: 1px;
-    background-color: var(--cor04);
+    background-color:var(--cor04);
    }
-   a span {
-    position: relative;
-    z-index: 1;
+   .ancora span {
+    position:relative;
+    z-index:1;
    }
    .ancora i {
-    position: absolute;
-    inset: 0;
-    display: flex;
+    position:absolute;
+    inset:0;
+    display:flex;
    }
    .ancora i::before {
     content: '';
@@ -109,26 +109,54 @@
     background-size:100%;
    }
    main {
-    width:600px;
     margin: auto;
     background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
    }
-   h2 {
+   .subtitulo {
+    align-items: center;
     color: var(--cor01);
-    text-align: center;
     letter-spacing: 0.1em;
     font-weight:bold;
     padding: 10px;
+    text-decoration: none;
    }
-   p {
+   main > p {
+    padding: 10px;
     text-align: justify;
     letter-spacing: 0.1;
     margin: 15px;
+    text-indent: 30px;
    }
    .ninho {
-    margin:auto;
-    padding: 15px;
-    
+    max-width: 100%;
+    margin: auto;
+    display: block;
+   }
+   footer {
+    min-height: 20px;
+    max-width:100%;
+    background-color:#032b4cdc;
+    text-align: center;
+   }
+   footer > p {
+    color: white;
+    padding: 5px;
+   }
+   .linkgithub {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    transition: 1s;
+   }
+   .linkgithub:hover {
+    background-color: white;
+    color: var(--cor04);
+    letter-spacing: 0.2em;
+    padding: 2px;
    }
 
 
