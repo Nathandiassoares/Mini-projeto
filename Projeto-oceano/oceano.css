@@ -116,15 +116,24 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
    }
-   .subtitulo {
-    align-items: center;
-    color: var(--cor01);
-    letter-spacing: 0.1em;
-    font-weight:bold;
+   h2 {
+    text-align: center;
     padding: 10px;
+    font-size: 1.8em;
+   }
+   .subtitulo {
+    color: var(--cor01);
     text-decoration: none;
+    transition: 1s;
+   }
+   .subtitulo:hover {
+    letter-spacing: 0.2em;
+    background-color: var(--cor04);
+    color: white;
+    padding: 5px;
    }
    main > p {
+    font-size: 1.5em;
     padding: 10px;
     text-align: justify;
     letter-spacing: 0.1;
