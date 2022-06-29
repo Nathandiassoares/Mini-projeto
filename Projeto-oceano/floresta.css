@@ -6,18 +6,97 @@
     font-family: 'poppins',sans-serif;
 }
 :root {
-    --cor01:#ADACBA;
-    --cor02:#3B4A2D;
-    --cor03:#367600;
-    --cor04:#101906;
+    --cor01:#1A64CE;
+    --cor02:#72BCF3;
+    --cor03:#3FA1F3;
+    --cor04:#032B4C;
 }
 header {
-    background-color: var(--cor01);
+    background-color: var(--cor03);
 }
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 20px;
+    padding-bottom: 10px;
+}
+.icone {
+    box-shadow: 0px 0px 30px var(--cor04);
+}
+.titulo {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+.ancoranav {
+    font-size: 1.5em;
+    position: relative;
+    background-color: var(--cor02);
+    text-decoration: none;
+    color: var(--cor03);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
 
+.ancoranav:hover {
+    color: var(--cor02);
+    letter-spacing: 0.25em;
+    color: var(--cor02);
+    box-shadow: 0px 0px 35px var(--cor02);
+}
+
+.ancoranav::before {
+    content: '';
+    background-color: var(--cor04);
+    position: absolute;
+    inset: 1px;
+}
+
+.ancoranva span {
+    position: relative;
+    z-index: 1;
+}
+
+.ancoranav i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.ancoranav i::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    top: -3.5px;
+    left: 80%;
+    border:2px solid var(--cor02);
+    background-color: var(--cor04);
+    transition: 0.5s;
+    transform: translate(-50%)
+
+}
+
+.ancoranav:hover i::before {
+    width: 20px;
+    left:20%;
+}
+
+.ancoranav i::after {
+    content: '';
+    position: absolute;
+    border: 2px solid var(--cor02);
+    bottom:-3.5px;
+    left: 20%;
+    width: 10px;
+    height: 5px;
+    background-color: var(--cor04);
+    transition: 0.5s;
+}
+
+.ancoranav:hover i::after {
+    width: 20px;
+    left: 80%;
 }
