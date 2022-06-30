@@ -64,11 +64,11 @@
    }
    .ancora span {
     position:relative;
-    z-index:1;
+    inset:2px;
    }
    .ancora i {
     position:absolute;
-    inset:0;
+    z-index:1;
     display:flex;
    }
    .ancora i::before {
