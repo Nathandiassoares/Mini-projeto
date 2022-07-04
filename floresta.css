@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
 }
 :root {
     --cor01:#274001;
@@ -13,21 +14,26 @@
     
 }
 header {
-    background-color:#1726016b ;
+    background-color:#1726016b;
+    
 }
 
 body {
+    min-width: 100vw;
+    min-height: 100vh;
     background: url(imagens/amazonia.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
     
 }
 .menu{
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+   
 }
 .icone {
     background-color: #172601b2;
@@ -124,7 +130,15 @@ main {
     width: 600px;
     margin: auto;
     background: white;
+    padding: 10px;
+    
+}
+main h2 {
+    font-size: 2em;
+    text-align:center;
 }
 main > p {
-  
+    text-indent: 10px;
+  justify-content: space-around;
 }
+
