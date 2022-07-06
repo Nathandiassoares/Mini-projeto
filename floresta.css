@@ -11,6 +11,7 @@
     --cor02:#6E8C03;
     --cor03:#365902;
     --cor04:#172601;
+    --cor05:#172601b2;
     
 }
 header {
@@ -138,7 +139,32 @@ main h2 {
     text-align:center;
 }
 main > p {
+    font-size: max(20px,2vw);
     text-indent: 10px;
-  justify-content: space-around;
-}
+    justify-content: space-around;
 
+}
+section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.descriçao > p {
+    background-color: var(--cor02);
+    color: white;
+    margin-top: -26px;
+    margin-left:20px;
+    padding: 2px;
+    letter-spacing: 0.2em;
+    width:250px;
+    box-shadow: 2px 2px 5px var(--cor04);
+
+}
+.animais {
+    width: 250px;
+    margin: 20px;
+    border: 2px solid var(--cor04);
+    box-shadow: 2px 2px 5px var(--cor04);
+}
