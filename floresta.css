@@ -137,6 +137,7 @@ main > h2 {
     text-align: center;
     color: var(--cor04);
     letter-spacing: 0.20em;
+    padding-top: 10px;
 }
 main > p {
     padding: 10px;
@@ -148,7 +149,22 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .animais {
+    width: 100%;
+}
+
+.imagens {
     width: 250px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px var(--cor04);
+}
+.imagens > p {
+    margin-top: -9px;
+    letter-spacing: 0.2em;
+    padding-left: 5px;
+    background-color: #274001;
+    color: white;
+    box-shadow: 2px 2px 5px var(--cor04);
 }
