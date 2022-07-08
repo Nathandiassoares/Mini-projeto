@@ -5,7 +5,6 @@
     padding: 0px;
     margin: 0px;
     font-family: 'poppins',sans-serif;
-    box-sizing: border-box;
 }
 :root {
     --cor01:#274001;
@@ -16,14 +15,13 @@
     
 }
 header {
-    max-width: 2000px;
+    width: auto;
+    height: 100px;
     background-color:#1726016b;
     
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
     background: url(imagens/amazonia.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
@@ -129,45 +127,28 @@ body {
 }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    background-color: white;
+    min-width:400px;
+    max-width:800px;
     margin: auto;
-    background: white;
-    padding: 10px;
-    
 }
-main h2 {
-    font-size: 2em;
-    text-align:center;
+
+main > h2 {
+    text-align: center;
+    color: var(--cor04);
+    letter-spacing: 0.20em;
 }
 main > p {
-    font-size: max(20px,2vw);
-    text-indent: 10px;
-    justify-content: space-around;
-
+    padding: 10px;
+    text-indent: 15px;
+    text-align: justify;
 }
-main > section {
-    width: max(600px);
-    position: relative;
+
+section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-}
-.descriçao > p {
-    background-color: var(--cor02);
-    color: white;
-    margin-top: -26px;
-    margin-left:20px;
-    padding: 2px;
-    letter-spacing: 0.2em;
-    width:250px;
-    box-shadow: 2px 2px 5px var(--cor04);
-
 }
 .animais {
     width: 250px;
-    margin: 20px;
-    border: 2px solid var(--cor04);
-    box-shadow: 2px 2px 5px var(--cor04);
 }
