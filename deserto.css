@@ -150,21 +150,34 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    box-sizing: border-box;
 }
-.animais {
-    width:100%;
-}
-
-.imagens {
-    width: 250px;
+.mimagens {
+    width: 300px;
+    height: 250px;
     margin: 10px;
     box-shadow: 3px 3px 3px var(--cor04);
 }
-.imagens > p {
-    margin-top: -9px;
-    letter-spacing: 0.2em;
-    padding-left: 5px;
-    background-color: #274001;
-    color: white;
-    box-shadow: 2px 2px 5px var(--cor04);
+
+footer{
+    background-color:var(--cor04);
+    color: var(--cor02);
+    text-align: center;
+    padding: 5px;
 }
+
+.linkp {
+    color:var(--cor02);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.linkp:hover {
+    background-color: var(--cor02);
+    color: var(--cor04);
+    letter-spacing: 0.25em;
+    padding: 2px;
+}
+
+
+

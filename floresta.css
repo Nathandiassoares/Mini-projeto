@@ -168,3 +168,22 @@ section {
     color: white;
     box-shadow: 2px 2px 5px var(--cor04);
 }
+
+footer {
+    background-color: var(--cor04);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.rodape  {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+.rodape:hover {
+    background-color: white;
+    color: var(--cor04);
+    letter-spacing: 0.25em;
+}
