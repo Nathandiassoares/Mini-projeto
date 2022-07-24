@@ -1,17 +1,17 @@
-@charset "UTF-8";
+@charset "UTF-6";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-*{
-    padding: 0px;
+* {
     margin: 0px;
-    font-family: 'poppins',sans-serif;
+    padding: 0px;
+    font-family:'poppins',sans-serif;
 }
+
 :root {
-    --cor01:#A55137;
-    --cor02:#D48F68;
-    --cor03:#925B54;
-    --cor04:#120403;
-    --cor05:#12040362;
+    --cor01:#2E2C2B;
+    --cor02:#9A918B;
+    --cor03:#2E2C2B;
+    --cor04:#251D1B;
+    --cor05:#251D1Bb2;
     
 }
 header {
@@ -22,7 +22,7 @@ header {
 }
 
 body {
-    background: url(imagens/deserto.png) no-repeat top center;
+    background: url(imagens/fundo-tundra.png) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
     
@@ -152,7 +152,7 @@ section {
     justify-content: center;
     box-sizing: border-box;
 }
-.mimagens {
+.imagens {
     width: 300px;
     height: 250px;
     margin: 10px;
@@ -160,14 +160,14 @@ section {
 }
 
 footer{
-    background-color:var(--cor05);
-    color: var(--cor04);
+    background-color:var(--cor04);
+    color:white;
     text-align: center;
     padding: 5px;
 }
 
 .linkp {
-    color:var(--cor04);
+    color:white;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -178,6 +178,3 @@ footer{
     letter-spacing: 0.25em;
     padding: 2px;
 }
-
-
-
